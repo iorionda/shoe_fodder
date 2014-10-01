@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @shoe.name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @shoe.price %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @shoe.url %>
+</p>
+
+<p>
+  <strong>Replacement mileage:</strong>
+  <%= @shoe.replacement_mileage %>
+</p>
+
+<%= link_to 'Edit', edit_shoe_path(@shoe) %> |
+<%= link_to 'Back', shoes_path %>
