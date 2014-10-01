@@ -11,5 +11,7 @@
  * file per style scope.
  *
  *= require_tree .
+*= require kendo/kendo.common.min
+*= require kendo/kendo.default.min
  *= require_self
  */
